@@ -149,10 +149,11 @@ a {
 
 .hero h1 {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
+  font-weight: 700;
   font-size: clamp(2.7rem, 5.6vw, 4.75rem);
-  line-height: 0.98;
-  letter-spacing: -0.03em;
+  line-height: 1.04;
+  letter-spacing: -0.045em;
   max-width: 18ch;
   margin-inline: auto;
   text-wrap: balance;
