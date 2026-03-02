@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Refresh | AI Room Visualization for Shopify</title>
+  <meta name="description" content="Help shoppers preview furniture and home decor in their own space with photo-based room visualization for Shopify stores.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="brand" aria-label="Room Refresh home">
+        <img src="photos/logo.png" alt="Room Refresh" class="logo-icon">
+      </a>
+      <a href="https://apps.shopify.com/try-on-twin" class="btn-shopify" target="_blank" rel="noopener" title="Install Room Refresh on the Shopify App Store">
+        <svg class="btn-shopify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 54 60" aria-hidden="true">
+          <path d="m37.82 59.855 15.187-3.774s-6.539-44.21-6.58-44.513a.582.582 0 0 0-.527-.49c-.219-.019-4.495-.084-4.495-.084s-2.606-2.53-3.586-3.49v52.351ZM36.166 7c-.003.002-.672.208-1.796.557-.189-.61-.465-1.36-.86-2.113-1.273-2.43-3.138-3.715-5.391-3.718h-.008c-.157 0-.312.015-.469.028a6.766 6.766 0 0 0-.203-.235C26.457.47 25.199-.042 23.691.003c-2.91.083-5.807 2.184-8.157 5.917-1.653 2.626-2.911 5.926-3.268 8.48l-5.729 1.775c-1.686.53-1.74.582-1.96 2.171C4.414 19.548 0 53.67 0 53.67L36.61 60V6.925c-.18.012-.342.045-.444.075Zm-8.454 2.618-6.174 1.911c.597-2.284 1.728-4.559 3.118-6.05.517-.555 1.24-1.174 2.097-1.527.804 1.68.98 4.058.96 5.666Zm-3.964-7.679c.683-.015 1.258.135 1.75.458-.787.409-1.547.995-2.26 1.76-1.848 1.983-3.264 5.061-3.83 8.03-1.76.545-3.484 1.08-5.07 1.57 1.001-4.674 4.919-11.688 9.41-11.818Zm-5.66 26.628c.196 3.114 8.39 3.794 8.85 11.09.361 5.739-3.045 9.665-7.953 9.975-5.89.371-9.133-3.105-9.133-3.105l1.248-5.31s3.264 2.462 5.877 2.297c1.707-.108 2.317-1.496 2.255-2.478-.257-4.062-6.929-3.822-7.35-10.498-.355-5.617 3.334-11.31 11.474-11.823 3.136-.198 4.743.603 4.743.603l-1.861 6.964s-2.077-.945-4.538-.79c-3.611.228-3.65 2.505-3.613 3.075ZM29.646 9.02c-.022-1.473-.197-3.523-.883-5.295 2.208.419 3.294 2.917 3.754 4.406-.851.262-1.821.562-2.871.889Z"></path>
+        </svg>
+        Install on Shopify
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">AI room visualization for Shopify</p>
+          <h1>Let shoppers place furniture and decor in their own room before they buy.</h1>
+          <p class="hero-sub">Room Refresh adds a photo-based visualization button to your product pages so customers can preview sofas, chairs, lighting, wall art, and accents in their own space in seconds.</p>
+          <div class="hero-points" aria-label="Room Refresh highlights">
+            <span>Furniture</span>
+            <span>Wall art</span>
+            <span>Lighting</span>
+            <span>Home decor</span>
+          </div>
+          <a href="https://apps.shopify.com/try-on-twin" class="btn-shopify btn-shopify-hero" target="_blank" rel="noopener" title="Get Room Refresh on the Shopify App Store">
+            <svg class="btn-shopify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 54 60" aria-hidden="true">
+              <path d="m37.82 59.855 15.187-3.774s-6.539-44.21-6.58-44.513a.582.582 0 0 0-.527-.49c-.219-.019-4.495-.084-4.495-.084s-2.606-2.53-3.586-3.49v52.351ZM36.166 7c-.003.002-.672.208-1.796.557-.189-.61-.465-1.36-.86-2.113-1.273-2.43-3.138-3.715-5.391-3.718h-.008c-.157 0-.312.015-.469.028a6.766 6.766 0 0 0-.203-.235C26.457.47 25.199-.042 23.691.003c-2.91.083-5.807 2.184-8.157 5.917-1.653 2.626-2.911 5.926-3.268 8.48l-5.729 1.775c-1.686.53-1.74.582-1.96 2.171C4.414 19.548 0 53.67 0 53.67L36.61 60V6.925c-.18.012-.342.045-.444.075Zm-8.454 2.618-6.174 1.911c.597-2.284 1.728-4.559 3.118-6.05.517-.555 1.24-1.174 2.097-1.527.804 1.68.98 4.058.96 5.666Zm-3.964-7.679c.683-.015 1.258.135 1.75.458-.787.409-1.547.995-2.26 1.76-1.848 1.983-3.264 5.061-3.83 8.03-1.76.545-3.484 1.08-5.07 1.57 1.001-4.674 4.919-11.688 9.41-11.818Zm-5.66 26.628c.196 3.114 8.39 3.794 8.85 11.09.361 5.739-3.045 9.665-7.953 9.975-5.89.371-9.133-3.105-9.133-3.105l1.248-5.31s3.264 2.462 5.877 2.297c1.707-.108 2.317-1.496 2.255-2.478-.257-4.062-6.929-3.822-7.35-10.498-.355-5.617 3.334-11.31 11.474-11.823 3.136-.198 4.743.603 4.743.603l-1.861 6.964s-2.077-.945-4.538-.79c-3.611.228-3.65 2.505-3.613 3.075ZM29.646 9.02c-.022-1.473-.197-3.523-.883-5.295 2.208.419 3.294 2.917 3.754 4.406-.851.262-1.821.562-2.871.889Z"></path>
+            </svg>
+            Install Room Refresh
+          </a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img src="photos/try_on_process_2.jpg" alt="Room Refresh preview showing furniture staged inside a customer's living room" class="hero-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem">
+      <div class="container problem-shell">
+        <p class="lead">Buying furniture online is high friction when shoppers cannot picture scale, placement, or style. Room Refresh puts a room-visualization button directly on product pages with <strong>no theme edits required</strong>, then helps merchants track usage and related orders from the app dashboard.</p>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div class="container workflow-shell">
+        <div class="workflow-image-card">
+          <img src="photos/try_on_process.jpg" alt="Room Refresh process showing a customer room photo, product image, and generated result" class="workflow-image">
+        </div>
+        <div class="workflow-copy">
+          <p class="section-kicker">How it works</p>
+          <h2>One room photo, one product photo, one clear buying decision.</h2>
+          <ol class="workflow-steps">
+            <li><strong>Upload a room photo.</strong> Shoppers start with their own living room, bedroom, office, or entryway.</li>
+            <li><strong>Select the product.</strong> A sofa, lamp, mirror, wall clock, or accent piece is pulled from the product page.</li>
+            <li><strong>Generate the preview.</strong> Room Refresh returns an in-space visualization that makes size and style easier to judge.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features-container">
+        <p class="section-kicker section-kicker-center">Built for home brands</p>
+        <h2 class="features-title">Why Room Refresh</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">01</span>
+            <h3 class="feature-heading">Shop in context</h3>
+            <p class="feature-desc">Help customers see how decor and furniture fit with their walls, flooring, and existing pieces before checkout.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">02</span>
+            <h3 class="feature-heading">No-code install</h3>
+            <p class="feature-desc">Add Room Refresh to product pages without theme edits so merchants can launch quickly across any Shopify storefront.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">03</span>
+            <h3 class="feature-heading">Conversion visibility</h3>
+            <p class="feature-desc">Track visualization activity, popular products, and the orders that follow so merchandising decisions stay grounded in real behavior.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-panel">
+          <p class="section-kicker section-kicker-light">Ready to launch</p>
+          <h2>Give shoppers the confidence to refresh their room.</h2>
+          <p>Install Room Refresh on Shopify and turn product pages into a more visual buying experience for furniture and home decor.</p>
+          <a href="https://apps.shopify.com/try-on-twin" class="btn-shopify btn-shopify-cta" target="_blank" rel="noopener" title="Install Room Refresh on the Shopify App Store">
+            <svg class="btn-shopify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 54 60" aria-hidden="true">
+              <path d="m37.82 59.855 15.187-3.774s-6.539-44.21-6.58-44.513a.582.582 0 0 0-.527-.49c-.219-.019-4.495-.084-4.495-.084s-2.606-2.53-3.586-3.49v52.351ZM36.166 7c-.003.002-.672.208-1.796.557-.189-.61-.465-1.36-.86-2.113-1.273-2.43-3.138-3.715-5.391-3.718h-.008c-.157 0-.312.015-.469.028a6.766 6.766 0 0 0-.203-.235C26.457.47 25.199-.042 23.691.003c-2.91.083-5.807 2.184-8.157 5.917-1.653 2.626-2.911 5.926-3.268 8.48l-5.729 1.775c-1.686.53-1.74.582-1.96 2.171C4.414 19.548 0 53.67 0 53.67L36.61 60V6.925c-.18.012-.342.045-.444.075Zm-8.454 2.618-6.174 1.911c.597-2.284 1.728-4.559 3.118-6.05.517-.555 1.24-1.174 2.097-1.527.804 1.68.98 4.058.96 5.666Zm-3.964-7.679c.683-.015 1.258.135 1.75.458-.787.409-1.547.995-2.26 1.76-1.848 1.983-3.264 5.061-3.83 8.03-1.76.545-3.484 1.08-5.07 1.57 1.001-4.674 4.919-11.688 9.41-11.818Zm-5.66 26.628c.196 3.114 8.39 3.794 8.85 11.09.361 5.739-3.045 9.665-7.953 9.975-5.89.371-9.133-3.105-9.133-3.105l1.248-5.31s3.264 2.462 5.877 2.297c1.707-.108 2.317-1.496 2.255-2.478-.257-4.062-6.929-3.822-7.35-10.498-.355-5.617 3.334-11.31 11.474-11.823 3.136-.198 4.743.603 4.743.603l-1.861 6.964s-2.077-.945-4.538-.79c-3.611.228-3.65 2.505-3.613 3.075ZM29.646 9.02c-.022-1.473-.197-3.523-.883-5.295 2.208.419 3.294 2.917 3.754 4.406-.851.262-1.821.562-2.871.889Z"></path>
+            </svg>
+            Install on Shopify
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-shell">
+      <p><a href="/">Room Refresh</a> - AI room visualization for furniture and home decor.</p>
+      <p><a href="https://apps.shopify.com/try-on-twin" target="_blank" rel="noopener">Get the Shopify app</a></p>
+    </div>
+  </footer>
+</body>
+</html>

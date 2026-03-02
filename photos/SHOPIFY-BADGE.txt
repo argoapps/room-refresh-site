@@ -1,0 +1,10 @@
+Shopify App Store badge
+----------------------
+Download the official badge from:
+https://shopify.dev/zip/shopify-app-store-badges.zip
+
+Extract the zip and save the WHITE-BACKGROUND version (black logo + "Find it on the Shopify App Store") as:
+  shopify-app-store-badge.png
+in this folder.
+
+The header button uses this image and links to your app. Do not resize, crop, or alter the badge (see Shopify's guidelines).
