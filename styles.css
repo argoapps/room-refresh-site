@@ -120,16 +120,13 @@ a {
 }
 
 .hero-shell {
-  display: grid;
-  gap: 1.8rem;
+  display: block;
 }
 
 .hero-copy {
-  max-width: 46rem;
-}
-
-.hero-visual {
-  order: -1;
+  max-width: 54rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .eyebrow,
@@ -153,22 +150,35 @@ a {
 .hero h1 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  font-size: clamp(2.5rem, 5vw, 4.35rem);
   line-height: 0.98;
   letter-spacing: -0.03em;
+  max-width: 12ch;
+  margin-inline: auto;
+  text-wrap: balance;
 }
 
 .hero-sub {
-  margin: 1.35rem 0 0;
+  margin: 1.35rem auto 0;
   font-size: 1.14rem;
   color: var(--text-muted);
+  max-width: 44rem;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  margin: 1.75rem auto 0;
+  max-width: 54rem;
 }
 
 .hero-points {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin: 1.75rem 0 1.5rem;
+  margin: 0;
 }
 
 .hero-points span {
@@ -182,18 +192,18 @@ a {
   color: var(--text);
 }
 
-.hero-image-wrap {
-  padding: 1rem;
-  background: linear-gradient(180deg, rgba(255, 250, 243, 0.84), rgba(255, 245, 235, 0.96));
-  border: 1px solid rgba(33, 26, 22, 0.08);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
+.btn-shopify-hero {
+  margin-top: 0;
+  margin-left: auto;
+}
+
+.hero-bleed {
+  margin-top: 2.4rem;
 }
 
 .hero-image {
   width: 100%;
   display: block;
-  border-radius: calc(var(--radius-lg) - 10px);
 }
 
 .problem {
@@ -223,13 +233,13 @@ a {
 }
 
 .workflow-shell {
-  display: grid;
-  gap: 2rem;
-  align-items: center;
+  display: block;
 }
 
 .workflow-copy {
   max-width: 46rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .workflow-copy h2,
@@ -243,14 +253,21 @@ a {
 
 .workflow-copy h2 {
   font-size: clamp(2rem, 4.2vw, 3.2rem);
-  max-width: 14ch;
+  max-width: 18ch;
+  margin-inline: auto;
+}
+
+.workflow-nowrap {
+  white-space: nowrap;
 }
 
 .workflow-steps {
-  margin: 1.5rem 0 0;
+  margin: 1.5rem auto 0;
   padding: 0;
   list-style: none;
   counter-reset: workflow-step;
+  max-width: 46rem;
+  text-align: left;
 }
 
 .workflow-steps li {
@@ -414,5 +431,22 @@ a {
   .cta-panel {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-points {
+    justify-content: center;
+  }
+
+  .btn-shopify-hero {
+    margin-left: 0;
+  }
+
+  .workflow-nowrap {
+    white-space: normal;
   }
 }
