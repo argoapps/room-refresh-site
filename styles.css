@@ -58,6 +58,9 @@ a {
 }
 
 .header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +74,7 @@ a {
 }
 
 .logo-icon {
-  width: min(320px, 52vw);
+  width: min(280px, 42vw);
   height: auto;
   display: block;
 }
@@ -81,7 +84,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  padding: 0.75rem 1.35rem;
+  padding: 0.8rem 1.7rem;
   text-decoration: none;
   font-weight: 700;
   font-size: 0.95rem;
@@ -118,12 +121,15 @@ a {
 
 .hero-shell {
   display: grid;
-  gap: 2.5rem;
-  align-items: center;
+  gap: 1.8rem;
 }
 
 .hero-copy {
-  max-width: 36rem;
+  max-width: 46rem;
+}
+
+.hero-visual {
+  order: -1;
 }
 
 .eyebrow,
@@ -174,10 +180,6 @@ a {
   background: rgba(255, 250, 243, 0.7);
   border: 1px solid rgba(33, 26, 22, 0.08);
   color: var(--text);
-}
-
-.hero-visual {
-  position: relative;
 }
 
 .hero-image-wrap {
@@ -401,13 +403,8 @@ a {
 }
 
 @media (min-width: 900px) {
-  .hero-shell,
   .workflow-shell {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-
-  .hero-shell {
-    gap: 3.5rem;
   }
 
   .feature-grid {
@@ -419,6 +416,7 @@ a {
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
+    padding-inline: 1rem;
   }
 
   .container {
