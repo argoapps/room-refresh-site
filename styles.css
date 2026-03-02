@@ -247,9 +247,10 @@ a {
 .cta h2,
 .features-title {
   margin: 0;
-  font-family: var(--font-display);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.04em;
 }
 
 .workflow-copy h2 {
