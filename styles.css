@@ -228,18 +228,8 @@ a {
   align-items: center;
 }
 
-.workflow-image-card {
-  padding: 1rem;
-  border-radius: var(--radius-lg);
-  background: rgba(255, 250, 243, 0.84);
-  border: 1px solid rgba(33, 26, 22, 0.08);
-  box-shadow: var(--shadow);
-}
-
-.workflow-image {
-  width: 100%;
-  display: block;
-  border-radius: calc(var(--radius-lg) - 10px);
+.workflow-copy {
+  max-width: 46rem;
 }
 
 .workflow-copy h2,
@@ -403,10 +393,6 @@ a {
 }
 
 @media (min-width: 900px) {
-  .workflow-shell {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-
   .feature-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
