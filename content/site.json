@@ -1,0 +1,74 @@
+{
+  "name": "Room Refresh",
+  "slug": "room-refresh",
+  "listingName": "RoomRefresh AR",
+  "origin": "https://www.roomrefresh.app",
+  "sisterOrigin": "https://www.tryontwin.com",
+  "sisterName": "Try On Twin",
+  "tagline": "AI room visualisation for Shopify",
+  "description": "Room Refresh adds photo-based furniture and decor previews to Shopify product pages. Explore examples, setup, limitations and plans from $19 USD per month.",
+  "developer": "Digifuse",
+  "support": "argowebapps@gmail.com",
+  "listing": "https://apps.shopify.com/room-refresh",
+  "demo": "https://room-refresh-demo-store.myshopify.com",
+  "privacy": "https://argoapps.github.io/room-refresh-legal/privacy.html",
+  "reviewed": "2026-11-01",
+  "unit": "previews",
+  "heroImage": "/photos/try-on-process.jpg",
+  "heroAlt": "A room photograph, a wall-clock product photograph, and an illustrative preview of the clock above the sofa",
+  "heroCaption": "Existing product example: a room photo + a wall-clock product photo \u2192 an AI-generated room preview. The preview is illustrative, not a scale drawing.",
+  "setupImage": "/photos/setup-app-embed.jpg",
+  "setupAlt": "Room Refresh demo store in Shopify theme editor showing Preview Button enabled under App embeds and View in your space on the product page",
+  "setupCaption": "Existing Room Refresh demo-store screenshot: the Preview Button app embed and the product-page button. Labels can vary by app or theme version.",
+  "headline": "See your products in their room.",
+  "intro": "Room Refresh is a Shopify app for furniture and home-decor merchants. Shoppers upload a room photo and generate a preview of a product in that space, directly from a product page.",
+  "fit": "For furniture, lighting, wall art, plants and home accessories where seeing the product in context helps a shopper evaluate its appearance.",
+  "limitation": "AI-generated previews illustrate appearance and placement. They do not provide measured dimensions, guaranteed scale or a live camera-based AR view. Shoppers should check product measurements before buying.",
+  "workflow": [
+    "Install Room Refresh from the Shopify App Store.",
+    "Enable the app embed in your theme and approve a subscription in Shopify.",
+    "A shopper opens the product-page preview button and uploads a room photo.",
+    "The app uses the selected product image to generate a room preview."
+  ],
+  "plans": [
+    {
+      "name": "Starter | Fast",
+      "price": 19,
+      "included": 150,
+      "overage": 0.12
+    },
+    {
+      "name": "Starter | Precise",
+      "price": 29,
+      "included": 150,
+      "overage": 0.19
+    },
+    {
+      "name": "Top | Fast",
+      "price": 129,
+      "included": 1500,
+      "overage": 0.08
+    },
+    {
+      "name": "Top | Precise",
+      "price": 179,
+      "included": 1500,
+      "overage": 0.12
+    }
+  ],
+  "indexNowKey": "9bd028c40bcd441eaa9907949840a639",
+  "features": [
+    {
+      "title": "A room photo, not a 3D model",
+      "text": "Customers start with a photo of their space and the product image on your store. The workflow creates an image preview rather than a navigable 3D scene."
+    },
+    {
+      "title": "A button on your product pages",
+      "text": "Activate the app embed in Shopify's theme editor. Configure the button and check the result on the product templates your store uses."
+    },
+    {
+      "title": "Usage alongside related orders",
+      "text": "Review preview activity and related orders in the app dashboard. Use these as observed activity, not proof that a preview caused a purchase."
+    }
+  ]
+}

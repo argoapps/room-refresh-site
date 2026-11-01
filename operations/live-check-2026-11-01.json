@@ -1,0 +1,93 @@
+{
+  "checked": "2026-11-01T16:37:43.195Z",
+  "product": "Room Refresh",
+  "results": [
+    {
+      "url": "https://www.roomrefresh.app/",
+      "status": 200,
+      "title": "Room Refresh | AI room visualisation for Shopify",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/pricing/",
+      "status": 200,
+      "title": "Room Refresh pricing: plans, trial and usage charges",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/setup/",
+      "status": 200,
+      "title": "How to set up Room Refresh on Shopify",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/faq/",
+      "status": 200,
+      "title": "Room Refresh FAQ: photos, themes, pricing and privacy",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/examples/",
+      "status": 200,
+      "title": "Room Refresh examples: photos, previews and limitations",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/guides/",
+      "status": 200,
+      "title": "Room Refresh guides for Shopify merchants",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/about/",
+      "status": 200,
+      "title": "About Room Refresh: developer, support and privacy",
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.roomrefresh.app/robots.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "url": "https://www.roomrefresh.app/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml"
+    },
+    {
+      "url": "https://www.roomrefresh.app/does-not-exist-ai-visibility-check/",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.roomrefresh.app/content/site.json",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.roomrefresh.app/operations/product-facts.json",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.roomrefresh.app/google37d6469328ca9513.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.roomrefresh.app/media/product-walkthrough.mp4",
+      "status": 200,
+      "contentType": "video/mp4"
+    },
+    {
+      "url": "https://www.roomrefresh.app/media/product-walkthrough.vtt",
+      "status": 200,
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "url": "https://roomrefresh.app/",
+      "status": 308,
+      "location": "https://www.roomrefresh.app/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "measure-room-preview-activity",
+  "title": "Measuring visualisation usage and related orders",
+  "description": "Separate preview activity, related orders and business outcomes. App dashboard observations can describe use and association; they do not by themselves.",
+  "answer": "Separate preview activity, related orders and business outcomes. App dashboard observations can describe use and association; they do not by themselves establish that previews caused higher conversion or lower returns.",
+  "body": "<section><h2>Define each measure before comparing it</h2><p>Keep a record of the observation window, eligible products, preview activity and related orders. An outbound click on this marketing website is not an app installation or a storefront purchase.</p><figure><img src=\"/photos/try-on-process.jpg\" alt=\"A room photograph, a wall-clock product photograph, and an illustrative preview of the clock above the sofa\" loading=\"lazy\"><figcaption>Existing product example: a room photo + a wall-clock product photo → an AI-generated room preview. The preview is illustrative, not a scale drawing.</figcaption></figure></section><section><h2>A practical review checklist</h2><ul><li>Record usage separately from related orders.</li><li>Use matching periods and comparable products.</li><li>Account for promotions, traffic mix and catalogue changes.</li><li>Use an appropriate controlled experiment before claiming a causal uplift.</li></ul><p>AI-generated previews illustrate appearance and placement. They do not provide measured dimensions, guaranteed scale or a live camera-based AR view. Shoppers should check product measurements before buying.</p></section><section><h2>Use the app’s documented workflow</h2><p>Room Refresh is a Shopify app for furniture and home-decor merchants. Shoppers upload a room photo and generate a preview of a product in that space, directly from a product page.</p><p>Start with <a href=\"/setup/\">setup instructions</a>, inspect <a href=\"/examples/\">the current product examples</a>, and check <a href=\"/pricing/\">plans and usage charges</a>. Ask support about your specific store before treating an assumption as a product feature.</p></section>",
+  "status": "draft",
+  "scheduled": "2027-01-04",
+  "author": "Digifuse",
+  "published": null,
+  "reviewed": null,
+  "evidence": [
+    {
+      "label": "Room Refresh Shopify App Store listing",
+      "url": "https://apps.shopify.com/room-refresh"
+    },
+    {
+      "label": "Official Shopify theme app embed documentation",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps"
+    }
+  ],
+  "releaseChecklist": [
+    "Inspect the current dashboard labels and use a non-customer-data demonstration or documented metric definitions.",
+    "Recheck current product facts and all source URLs.",
+    "Inspect the referenced original demonstration assets and document provenance.",
+    "Test the documented workflow or complete the comparison against current sources.",
+    "Confirm this draft answers its title with specific evidence.",
+    "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+    "Set reviewed and published to actual dates only after the checks pass."
+  ]
+}

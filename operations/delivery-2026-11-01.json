@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-01",
+  "site": "https://www.roomrefresh.app/",
+  "projectId": "prj_0JFfcF2t2vfOIWRJJqEwIBkqcQKy",
+  "initialReleaseDeployment": "dpl_8RPhbDkDwP7NrA79tcViYo54zCpG",
+  "initialReleaseUrl": "https://room-refresh-site-nj5hb0i7o-argo-apps-projects.vercel.app",
+  "precedingDeployment": "dpl_D8KtFxkrBYxtMkVYpFETLFs8vZjC",
+  "googleSearchConsole": {
+    "ownership": "verified by HTML file",
+    "sitemap": "submitted successfully",
+    "data": "processing, not yet available"
+  },
+  "indexNow": {
+    "urlCount": 7,
+    "status": 202
+  },
+  "apexRedirect": {
+    "destination": "https://www.roomrefresh.app/",
+    "status": 308
+  },
+  "analytics": {
+    "plan": "included Web Analytics; Plus not selected",
+    "state": "enabled; a deployment after enabling is required before verifying collection",
+    "events": [
+      "shopify_install_click",
+      "demo_click"
+    ],
+    "properties": [
+      "page",
+      "placement"
+    ]
+  },
+  "automation": {
+    "id": "room-refresh-try-on-twin-visibility",
+    "schedule": "Mondays at 09:00 Europe/London",
+    "firstArticle": "2026-11-16"
+  },
+  "futureContent": {
+    "drafts": 8,
+    "firstDue": "2026-11-16",
+    "lastDue": "2027-01-04",
+    "rule": "Evidence review required before publication."
+  },
+  "pending": [
+    "Bing sign-in: selecting p.panchenko@gmail.com was rejected by automatic approval review. Await explicit approval; do not work around this block.",
+    "Full AI benchmark: only the first Room Refresh prompt has two platform captures. No aggregate baseline score is available.",
+    "Fresh installation and newly generated examples were not tested on a merchant store. Existing demo assets are labelled as such."
+  ],
+  "sourceScope": "Marketing website only. Separate Shopify application source, database and billing configuration unchanged."
+}

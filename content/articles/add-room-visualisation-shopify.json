@@ -1,0 +1,30 @@
+{
+  "slug": "add-room-visualisation-shopify",
+  "title": "How to add room visualisation to Shopify",
+  "description": "A room-preview workflow needs a product-page entry point, a room-photo upload and clear product information. Room Refresh provides the photo-based preview;.",
+  "answer": "A room-preview workflow needs a product-page entry point, a room-photo upload and clear product information. Room Refresh provides the photo-based preview; the merchant enables its theme app embed and approves a subscription in Shopify.",
+  "body": "<section><h2>Start with the storefront workflow</h2><p>Choose one product and one product template to evaluate first. Confirm that the existing product imagery is clear and that dimensions and installation information are easy to find.</p><p>Install from the official Shopify listing. Open onboarding and use Enable App Embed. Enable the app’s button in the theme editor, save the theme and return to approve a subscription. These are separate setup steps; an installation alone does not activate the complete workflow.</p><figure><img src=\"/photos/setup-app-embed.jpg\" alt=\"Room Refresh demo store in Shopify theme editor showing Preview Button enabled under App embeds and View in your space on the product page\" loading=\"lazy\"><figcaption>Existing Room Refresh demo-store screenshot: the Preview Button app embed and the product-page button. Labels can vary by app or theme version.</figcaption></figure></section><section><h2>Test before enabling the whole catalogue</h2><ol><li>Open the product page on desktop and mobile.</li><li>Use a demonstration photo you have permission to upload.</li><li>Generate a preview and compare it with both input images.</li><li>Check button placement around the media gallery and purchase controls.</li><li>Confirm the original product information is still easy to find.</li></ol><p>If the button is absent, check the embed, active theme and product settings. Ask support about custom galleries or templates.</p></section><section><h2>Keep the customer decision clear</h2><p>AI-generated previews illustrate appearance and placement. They do not provide measured dimensions, guaranteed scale or a live camera-based AR view. Shoppers should check product measurements before buying.</p><p>Review <a href=\"/pricing/\">plans and usage charges</a>, the <a href=\"/faq/\">photo and privacy questions</a>, and the <a href=\"/setup/\">full setup instructions</a> before launch.</p></section>",
+  "status": "draft",
+  "scheduled": "2026-11-16",
+  "author": "Digifuse",
+  "published": null,
+  "reviewed": null,
+  "evidence": [
+    {
+      "label": "Room Refresh Shopify App Store listing",
+      "url": "https://apps.shopify.com/room-refresh"
+    },
+    {
+      "label": "Official Shopify theme app embed documentation",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps"
+    }
+  ],
+  "releaseChecklist": [
+    "Recheck current product facts and all source URLs.",
+    "Inspect the referenced original demonstration assets and document provenance.",
+    "Test the documented workflow or complete the comparison against current sources.",
+    "Confirm this draft answers its title with specific evidence.",
+    "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+    "Set reviewed and published to actual dates only after the checks pass."
+  ]
+}

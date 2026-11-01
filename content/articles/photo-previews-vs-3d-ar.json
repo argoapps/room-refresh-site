@@ -1,0 +1,30 @@
+{
+  "slug": "photo-previews-vs-3d-ar",
+  "title": "Photo-based room previews versus 3D/AR viewers",
+  "description": "A photo-based room preview combines a room image with a product image to produce an illustrative result. A 3D/AR workflow uses a 3D representation and, for.",
+  "answer": "A photo-based room preview combines a room image with a product image to produce an illustrative result. A 3D/AR workflow uses a 3D representation and, for camera-based AR, a live camera view. Choose based on whether you need a visual composition or an interactive 3D experience.",
+  "body": "<section><h2>Compare the job each workflow does</h2><div class=\"table-scroll\"><table><caption>Photo previews and 3D/AR workflows</caption><thead><tr><th scope=\"col\">Question</th><th scope=\"col\">Photo-based preview</th><th scope=\"col\">3D/AR viewer</th></tr></thead><tbody><tr><td>Input</td><td>Room photograph and product image</td><td>A 3D representation of the product</td></tr><tr><td>Output</td><td>Generated still image of an illustrative placement</td><td>Interactive 3D scene or camera-based AR view</td></tr><tr><td>Evaluation</td><td>Recognisable item, composition and appearance</td><td>Model quality, interaction, device support and calibration</td></tr><tr><td>Measurements</td><td>Check product dimensions separately</td><td>Check the tool’s calibration and measurement claims separately</td></tr></tbody></table></div><p>This is a comparison of workflow categories, not a feature audit of named competitors. Individual products can combine capabilities; verify each provider’s current documentation before choosing.</p></section><section><h2>What Room Refresh does</h2><p>Room Refresh is a Shopify app for furniture and home-decor merchants. Shoppers upload a room photo and generate a preview of a product in that space, directly from a product page.</p><figure><img src=\"/photos/try-on-process.jpg\" alt=\"A room photograph, a wall-clock product photograph, and an illustrative preview of the clock above the sofa\" loading=\"lazy\"><figcaption>Existing product example: a room photo + a wall-clock product photo → an AI-generated room preview. The preview is illustrative, not a scale drawing.</figcaption></figure><p>AI-generated previews illustrate appearance and placement. They do not provide measured dimensions, guaranteed scale or a live camera-based AR view. Shoppers should check product measurements before buying.</p></section><section><h2>Choose against a concrete customer question</h2><p>Write down the decision your shoppers need help making. Test the same small selection of products and representative photos. Keep records of visual errors, mobile friction, privacy requirements and total usage cost. A visually appealing result is only one part of the evaluation.</p><p>See <a href=\"/examples/\">the product examples</a>, <a href=\"/setup/\">setup requirements</a> and <a href=\"/pricing/\">plan pricing</a>.</p></section>",
+  "status": "draft",
+  "scheduled": "2026-11-23",
+  "author": "Digifuse",
+  "published": null,
+  "reviewed": null,
+  "evidence": [
+    {
+      "label": "Room Refresh Shopify App Store listing",
+      "url": "https://apps.shopify.com/room-refresh"
+    },
+    {
+      "label": "Official Shopify theme app embed documentation",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/theme-structure/extend/apps"
+    }
+  ],
+  "releaseChecklist": [
+    "Recheck current product facts and all source URLs.",
+    "Inspect the referenced original demonstration assets and document provenance.",
+    "Test the documented workflow or complete the comparison against current sources.",
+    "Confirm this draft answers its title with specific evidence.",
+    "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+    "Set reviewed and published to actual dates only after the checks pass."
+  ]
+}

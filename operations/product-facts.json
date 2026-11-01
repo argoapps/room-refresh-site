@@ -1,0 +1,57 @@
+{
+  "checked": "2026-11-01",
+  "product": "Room Refresh",
+  "listingName": "RoomRefresh AR",
+  "listing": "https://apps.shopify.com/room-refresh",
+  "privacy": "https://argoapps.github.io/room-refresh-legal/privacy.html",
+  "developer": "Digifuse",
+  "support": "argowebapps@gmail.com",
+  "pricing": [
+    {
+      "name": "Starter | Fast",
+      "price": 19,
+      "included": 150,
+      "overage": 0.12
+    },
+    {
+      "name": "Starter | Precise",
+      "price": 29,
+      "included": 150,
+      "overage": 0.19
+    },
+    {
+      "name": "Top | Fast",
+      "price": 129,
+      "included": 1500,
+      "overage": 0.08
+    },
+    {
+      "name": "Top | Precise",
+      "price": 179,
+      "included": 1500,
+      "overage": 0.12
+    }
+  ],
+  "trialDays": 7,
+  "sources": [
+    "Shopify App Store listing retrieved 2026-11-01",
+    "/Users/philip.panchenko/Developer/Apps/Shopify/room-refresh/app/routes/app.onboarding.tsx"
+  ],
+  "limits": [
+    "No fresh installation on a merchant store completed.",
+    "Published privacy policy linked without independently asserting its retention enforcement.",
+    "Demo images are existing official app assets, not newly generated outputs."
+  ],
+  "assets": [
+    {
+      "path": "photos/try-on-process.jpg",
+      "sha256": "7dc07f25b79f969527db94c2cbcc3a04f0fe52e7666b117f4e495f230374d0f9",
+      "provenance": "Existing website demonstration image"
+    },
+    {
+      "path": "photos/setup-app-embed.jpg",
+      "sha256": "b9f4cee74d7e070a64a79d814bcd6dfdadc5c5a90287b6a2404d15c4fcb2d947",
+      "provenance": "/Users/philip.panchenko/Developer/Apps/Shopify/room-refresh/public/try-on-buttons.jpg"
+    }
+  ]
+}
