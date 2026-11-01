@@ -12,6 +12,7 @@ for(const {route,modified} of routes){
  assert(desc&&!descriptions.has(desc),`Missing/duplicate description: ${route}`);descriptions.add(desc);
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,route);
  assert(html.includes(`rel="canonical" href="${s.origin}${route}"`),`Canonical: ${route}`);
+ if(route==='/' && s.bingVerification) assert(html.includes(`name="msvalidate.01" content="${s.bingVerification}"`),'Bing ownership verification tag');
  assert(html.includes('id="main"')&&html.includes('Skip to content'),`Accessibility: ${route}`);
  const preview=process.env.VERCEL_ENV==='preview';
  assert(html.includes(`name="robots" content="${preview?'noindex, nofollow':'index, follow, max-image-preview:large'}"`),`Indexability: ${route}`);
