@@ -1,22 +1,31 @@
 {
   "product": "Room Refresh",
   "baselineDate": "2026-11-01",
+  "phase": "post-release launch baseline",
+  "protocolVersion": 2,
+  "plannedSessions": 84,
+  "capturedSessions": 6,
   "platforms": {
     "ChatGPT Search": {
       "status": "untested",
-      "reason": "The web application presented a login screen; no grounded response recorded."
+      "completed": 0,
+      "planned": 28,
+      "remaining": 28,
+      "reason": "Login screen; no grounded response obtained."
     },
     "Gemini": {
       "status": "partial",
       "completed": 1,
       "planned": 28,
-      "reason": "One grounded fresh-session response captured. Automated continuation failed when the browser execution context ended; this is not a visibility score."
+      "remaining": 27,
+      "reason": "Google unusual-traffic CAPTCHA stopped further sessions; no bypass attempted."
     },
     "Perplexity": {
       "status": "partial",
-      "completed": 1,
+      "completed": 5,
       "planned": 28,
-      "reason": "One grounded fresh-session response captured, with a citation to the Shopify listing. Further sessions have not been run."
+      "remaining": 23,
+      "reason": "Anonymous hardVisitorGate requires sign-in; no further sessions sent."
     }
   },
   "runs": [
@@ -24,29 +33,208 @@
       "promptId": "discovery-01",
       "session": 1,
       "platform": "Gemini",
-      "captured": "2026-11-01T14:23:18.340Z",
-      "classification": "unscored",
+      "captured": "2026-11-01T17:01:10.100Z",
+      "classification": "not_observed_in_captured_response",
       "recommended": false,
-      "mentioned": false,
+      "mentionedInAnswer": false,
       "citationUrls": [],
-      "citationCaptureComplete": false,
-      "rawCapture": "operations/captures/2026-11-01/room-refresh-gemini-discovery-01-session-1.txt",
-      "notes": "The response names DecorViz, My Room Visualiser, Wizart, Mazing XR and Imersian. Citation detail capture is incomplete; do not use this run in aggregate citation counts."
+      "allCitationUrls": [
+        "https://dev-landing.reimaginehome.ai/blogs/room-visualization-shopify-ultimate-guide#:~:text=By%20combining%20a%20room%20photo%20with%20product,Visualization%20Matters%20for%20Home%20%26%20Furniture%20Ecommerce.",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=Apps%20in%20this%20category%20allow%20customers%20to,need%3A%20High%2Dquality%203D%20models%20of%20your%20products.",
+        "https://decorviz.ai/storefront/shopify-furniture-visualizer/#:~:text=Setup%20usually%20takes%20under%20five%20minutes.%20Shopper,example%2C%20read%20how%20Lyons%20Crafted%20uses%20Storefront.",
+        "https://decorviz.ai/storefront/shopify-furniture-visualizer/#:~:text=Install%20the%20app%20from%20the%20Shopify%20App,the%20selected%20furniture%20in%20their%20own%20space.",
+        "https://mazingxr.com/en/ai-product-visualization-shopify/",
+        "https://decorviz.ai/storefront/shopify-furniture-visualizer/#:~:text=Which%20themes%20does%20it%20work%20with%3F%20Storefront,theme.%20Will%20it%20slow%20the%20product%20page%3F",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=Below%20is%20a%20functional%20breakdown%20of%20the,3D%2FAR%20support%20through%20.%20glb%20and%20.",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=Tools%20to%20evaluate%3A%20Zakeke%2C%20Threekit%2C%20Vertebrae%2C%20and,commission%20them%20from%20a%203D%20modelling%20studio.",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=Roomvo%20in%20particular%20has%20strong%20Shopify%20integration,textiles%2C%20and%20products%20sold%20in%20multiple%20finishes.",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=*%20Treating%20visualiser%20adoption%20as%20a%20vanity,need%20to%20function%20well%20across%20both%20contexts.",
+        "https://www.imersian.com/features/shopify#:~:text=Yes.%20The%20Imersian%20visualizer%20is%20fully%20mobile%2Dresponsive,and%20visualize%20products%20without%20downloading%20any%20app.",
+        "https://projectsupply.in/blog/shopify-room-visualiser-home-decor#:~:text=*%20Optimising%20the%20product%20page%20for%20desktop,notes%20about%20colour%20variation%20reduce%20cognitive%20load."
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-gemini-discovery-01-session-1.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
     },
     {
       "promptId": "discovery-01",
       "session": 1,
       "platform": "Perplexity",
-      "captured": "2026-11-01T14:23:18.611Z",
-      "classification": "cited",
+      "captured": "2026-11-01T17:01:20.789Z",
+      "classification": "source_list_only",
       "recommended": false,
-      "mentioned": true,
+      "mentionedInAnswer": false,
       "citationUrls": [
         "https://apps.shopify.com/room-refresh"
       ],
+      "allCitationUrls": [
+        "https://apps.shopify.com/seeinplace",
+        "https://apps.shopify.com/my-room-visualiser",
+        "https://apps.shopify.com/reimaginehome-room-visualizer",
+        "https://apps.shopify.com/show-in-my-room",
+        "https://apps.shopify.com/roomellow",
+        "https://apps.shopify.com/ar-visualizer",
+        "https://apps.shopify.com/homevisioner-visualizer",
+        "https://apps.shopify.com/furniture-ai",
+        "https://apps.shopify.com/decorviz-storefront",
+        "https://apps.shopify.com/room-refresh",
+        "https://apps.shopify.com/touchtryroomfit",
+        "https://apps.shopify.com/viewly3d",
+        "https://apps.shopify.com/imersian",
+        "https://apps.shopify.com/ideal-house-ai-tools",
+        "https://apps.shopify.com/shoparn"
+      ],
       "citationCaptureComplete": true,
-      "rawCapture": "operations/captures/2026-11-01/room-refresh-perplexity-discovery-01-session-1.txt",
-      "notes": "RoomRefresh is mentioned in the theme setup section and appears in the expanded source list. Recommended starting options are other apps. Source-list evidence was inspected separately from the raw initial capture."
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-perplexity-discovery-01-session-1.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
+    },
+    {
+      "promptId": "discovery-01",
+      "session": 2,
+      "platform": "Perplexity",
+      "captured": "2026-11-01T17:03:05.685Z",
+      "classification": "source_list_only",
+      "recommended": false,
+      "mentionedInAnswer": false,
+      "citationUrls": [
+        "https://apps.shopify.com/room-refresh"
+      ],
+      "allCitationUrls": [
+        "https://apps.shopify.com/my-room-visualiser",
+        "https://apps.shopify.com/seeinplace",
+        "https://apps.shopify.com/reimaginehome-room-visualizer",
+        "https://apps.shopify.com/furniture-ai",
+        "https://apps.shopify.com/decorviz-storefront",
+        "https://apps.shopify.com/homevisioner-visualizer",
+        "https://apps.shopify.com/show-in-my-room",
+        "https://apps.shopify.com/evinde-dene-ar-urun-deneme",
+        "https://apps.shopify.com/furniture-fit-check",
+        "https://apps.shopify.com/furniview",
+        "https://apps.shopify.com/ar-visualizer",
+        "https://apps.shopify.com/imersian",
+        "https://apps.shopify.com/roomellow",
+        "https://apps.shopify.com/room-refresh",
+        "https://apps.shopify.com/ideal-house-ai-tools"
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-perplexity-discovery-01-session-2.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
+    },
+    {
+      "promptId": "discovery-02",
+      "session": 1,
+      "platform": "Perplexity",
+      "captured": "2026-11-01T17:03:06.128Z",
+      "classification": "not_observed_in_captured_response",
+      "recommended": false,
+      "mentionedInAnswer": false,
+      "citationUrls": [],
+      "allCitationUrls": [
+        "https://www.ione360.com/knowledgebase/can-i-take-a-picture-of-a-room-and-design-it-with-an-app/",
+        "https://www.ione360.com/knowledgebase/how-to-visualize-new-furniture-in-a-room/",
+        "https://www.bitcot.com/best-home-interior-design-apps/",
+        "https://www.biltritefurniture.com/furniture-visualizer-2/",
+        "https://www.biltritefurniture.com/furniture-visualizer-3/",
+        "https://www.ione360.com/knowledgebase/what-is-the-best-way-to-visualize-furniture-in-a-room/",
+        "https://home3dplan.com/blog/see-furniture-in-your-room-with-ar-tools-compared-guide-AqHZ",
+        "https://www.biltritefurniture.com/furniture-visualizer/",
+        "https://tynerfurniture.com/furniture-visualizer/",
+        "https://mazingxr.com/en/from-ar-to-ai-room-planning/"
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-perplexity-discovery-02-session-1.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
+    },
+    {
+      "promptId": "discovery-02",
+      "session": 2,
+      "platform": "Perplexity",
+      "captured": "2026-11-01T17:03:06.375Z",
+      "classification": "not_observed_in_captured_response",
+      "recommended": false,
+      "mentionedInAnswer": false,
+      "citationUrls": [],
+      "allCitationUrls": [
+        "https://www.ione360.com/knowledgebase/can-i-take-a-picture-of-a-room-and-design-it-with-an-app/",
+        "https://mazingxr.com/en/from-ar-to-ai-room-planning/",
+        "https://www.ione360.com/knowledgebase/how-to-visualize-new-furniture-in-a-room/",
+        "https://www.bitcot.com/best-home-interior-design-apps/",
+        "https://www.biltritefurniture.com/furniture-visualizer-2/",
+        "https://www.biltritefurniture.com/furniture-visualizer-3/",
+        "https://home3dplan.com/blog/see-furniture-in-your-room-with-ar-tools-compared-guide-AqHZ",
+        "https://www.ione360.com/knowledgebase/what-is-the-best-way-to-visualize-furniture-in-a-room/",
+        "https://www.biltritefurniture.com/furniture-visualizer/",
+        "https://tynerfurniture.com/furniture-visualizer/"
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-perplexity-discovery-02-session-2.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
+    },
+    {
+      "promptId": "discovery-03",
+      "session": 1,
+      "platform": "Perplexity",
+      "captured": "2026-11-01T17:03:06.630Z",
+      "classification": "recommended_and_cited",
+      "recommended": true,
+      "mentionedInAnswer": true,
+      "citationUrls": [
+        "https://apps.shopify.com/room-refresh"
+      ],
+      "allCitationUrls": [
+        "https://www.shopify.com/il/enterprise/blog/augmented-reality-ecommerce-shopping",
+        "https://apps.shopify.com/room-refresh",
+        "https://apps.shopify.com/furniture-ai",
+        "https://apps.shopify.com/decorviz-storefront",
+        "https://apps.shopify.com/furniview",
+        "https://www.reimaginehome.ai/blogs/room-visualization-shopify-ultimate-guide",
+        "https://apps.shopify.com/reimaginehome-room-visualizer",
+        "https://apps.shopify.com/seeinplace",
+        "https://apps.shopify.com/my-room-visualiser",
+        "https://apps.shopify.com/ar-visualizer"
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01-launch/room-refresh-perplexity-discovery-03-session-1.json",
+      "notes": "Source list inclusion is recorded separately from recommendation in the answer. No website citation or causal improvement established."
     }
-  ]
+  ],
+  "preReleasePilot": {
+    "excludedFromLaunchBaseline": true,
+    "runs": [
+      {
+        "promptId": "discovery-01",
+        "session": 1,
+        "platform": "Gemini",
+        "captured": "2026-11-01T14:23:18.340Z",
+        "classification": "unscored",
+        "recommended": false,
+        "mentioned": false,
+        "citationUrls": [],
+        "citationCaptureComplete": false,
+        "rawCapture": "operations/captures/2026-11-01/room-refresh-gemini-discovery-01-session-1.txt",
+        "notes": "The response names DecorViz, My Room Visualiser, Wizart, Mazing XR and Imersian. Citation detail capture is incomplete; do not use this run in aggregate citation counts."
+      },
+      {
+        "promptId": "discovery-01",
+        "session": 1,
+        "platform": "Perplexity",
+        "captured": "2026-11-01T14:23:18.611Z",
+        "classification": "cited",
+        "recommended": false,
+        "mentioned": true,
+        "citationUrls": [
+          "https://apps.shopify.com/room-refresh"
+        ],
+        "citationCaptureComplete": true,
+        "rawCapture": "operations/captures/2026-11-01/room-refresh-perplexity-discovery-01-session-1.txt",
+        "notes": "RoomRefresh is mentioned in the theme setup section and appears in the expanded source list. Recommended starting options are other apps. Source-list evidence was inspected separately from the raw initial capture."
+      }
+    ]
+  },
+  "interpretation": "Incomplete convenience sample. Untested sessions are not zero visibility. Do not compare aggregate scores or attribute any response to this release.",
+  "nextChecks": [
+    "2026-12-07",
+    "2027-01-04"
+  ],
+  "accessPolicy": "Resume only through legitimately available access. Do not evade CAPTCHA, login, or anonymous-use limits."
 }

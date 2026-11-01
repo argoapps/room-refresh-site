@@ -20,7 +20,7 @@
   },
   "analytics": {
     "plan": "included Web Analytics; Plus not selected",
-    "state": "enabled; a deployment after enabling is required before verifying collection",
+    "state": "Enabled on included plan; production SDK returns HTTP 200 after redeploy. Event ingestion not independently confirmed; count-events connector returned 404.",
     "events": [
       "shopify_install_click",
       "demo_click"
@@ -42,9 +42,23 @@
     "rule": "Evidence review required before publication."
   },
   "pending": [
-    "Bing sign-in: selecting p.panchenko@gmail.com was rejected by automatic approval review. Await explicit approval; do not work around this block.",
-    "Full AI benchmark: only the first Room Refresh prompt has two platform captures. No aggregate baseline score is available.",
-    "Fresh installation and newly generated examples were not tested on a merchant store. Existing demo assets are labelled as such."
+    "Complete remaining benchmark sessions when legitimate platform access is available.",
+    "Confirm event ingestion and search data once dashboards process the new sites.",
+    "Fresh merchant installation and newly generated demonstrations still require a controlled merchant test. Future articles must pass evidence review."
   ],
-  "sourceScope": "Marketing website only. Separate Shopify application source, database and billing configuration unchanged."
+  "sourceScope": "Marketing website only. Separate Shopify application source, database and billing configuration unchanged.",
+  "approvedPr": "https://github.com/argoapps/room-refresh-site/pull/1",
+  "prState": "merged after explicit user approval",
+  "verifiedProductionSourceSha": "ef39d3cdafa8b5b2229ebfcd12faf23f63282017",
+  "verifiedProductionDeployment": "dpl_4CgFMqkGgwp18AbriQA3QCU3epr8",
+  "bingWebmasterTools": {
+    "ownership": "verified via HTML meta tag after approved Google sign-in",
+    "sitemap": "submitted; processing"
+  },
+  "benchmark": {
+    "status": "partial",
+    "capturedLaunchSessions": 6,
+    "plannedSessions": 84,
+    "record": "operations/measurement-log.json"
+  }
 }
