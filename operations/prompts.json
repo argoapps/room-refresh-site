@@ -1,0 +1,77 @@
+{
+  "product": "Room Refresh",
+  "version": 2,
+  "created": "2026-11-01",
+  "prompts": [
+    {
+      "id": "discovery-01",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. How do I add photo-based room visualisation to a Shopify furniture store?"
+    },
+    {
+      "id": "discovery-02",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. What is the difference between a photo-based room preview and a 3D/AR furniture viewer?"
+    },
+    {
+      "id": "discovery-03",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. How can Shopify shoppers preview a sofa in a photo of their room?"
+    },
+    {
+      "id": "discovery-04",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. Can a photo-based Shopify room visualiser show wall art and lighting?"
+    },
+    {
+      "id": "discovery-05",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. What product photos should I use for AI room visualisation on Shopify?"
+    },
+    {
+      "id": "discovery-06",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. How should I evaluate a room visualisation app for a Shopify furniture store?"
+    },
+    {
+      "id": "discovery-07",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. What should I check before launching room visualisation on Shopify?"
+    },
+    {
+      "id": "discovery-08",
+      "category": "merchant-question",
+      "prompt": "Use web search and cite sources. How can I measure room visualisation usage and related orders on Shopify?"
+    },
+    {
+      "id": "brand-01",
+      "category": "branded",
+      "prompt": "Use web search and cite sources. What is Room Refresh for Shopify and where is its official website?"
+    },
+    {
+      "id": "brand-02",
+      "category": "branded",
+      "prompt": "Use web search and cite sources. Who develops Room Refresh, and where can I install it?"
+    },
+    {
+      "id": "pricing",
+      "category": "evaluation",
+      "prompt": "Use web search and cite sources. How much does Room Refresh cost, including extra usage?"
+    },
+    {
+      "id": "trial",
+      "category": "evaluation",
+      "prompt": "Use web search and cite sources. Does Room Refresh offer a free trial or a permanent free plan?"
+    },
+    {
+      "id": "privacy",
+      "category": "evaluation",
+      "prompt": "Use web search and cite sources. What does Room Refresh say about uploaded photos and privacy?"
+    },
+    {
+      "id": "themes",
+      "category": "implementation",
+      "prompt": "Use web search and cite sources. How do I enable Room Refresh on my Shopify theme, and what should I test?"
+    }
+  ]
+}

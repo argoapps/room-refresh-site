@@ -1,0 +1,125 @@
+[
+  {
+    "week": 3,
+    "date": "2026-11-16",
+    "slug": "add-room-visualisation-shopify",
+    "title": "How to add room visualisation to Shopify",
+    "status": "draft",
+    "evidenceRequired": [
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 4,
+    "date": "2026-11-23",
+    "slug": "photo-previews-vs-3d-ar",
+    "title": "Photo-based room previews versus 3D/AR viewers",
+    "status": "draft",
+    "evidenceRequired": [
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 5,
+    "date": "2026-11-30",
+    "slug": "sofa-preview-example",
+    "title": "Furniture previews: a worked sofa example",
+    "status": "draft",
+    "evidenceRequired": [
+      "Capture the sofa room input, product input and result as a matched set; the existing wall-clock example is not sufficient for this title.",
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 6,
+    "date": "2026-12-07",
+    "slug": "wall-art-lighting-examples",
+    "title": "Wall art and lighting: examples and limitations",
+    "status": "draft",
+    "evidenceRequired": [
+      "Capture a matched lighting example and identify which visual properties it can demonstrate.",
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 7,
+    "date": "2026-12-14",
+    "slug": "product-photography-room-previews",
+    "title": "Product photography for better room previews",
+    "status": "draft",
+    "evidenceRequired": [
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 8,
+    "date": "2026-12-21",
+    "slug": "evaluate-shopify-room-visualiser",
+    "title": "How to evaluate a Shopify room visualiser",
+    "status": "draft",
+    "evidenceRequired": [
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 9,
+    "date": "2026-12-28",
+    "slug": "room-visualisation-launch-checklist",
+    "title": "A practical room-visualisation launch checklist",
+    "status": "draft",
+    "evidenceRequired": [
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  },
+  {
+    "week": 10,
+    "date": "2027-01-04",
+    "slug": "measure-room-preview-activity",
+    "title": "Measuring visualisation usage and related orders",
+    "status": "draft",
+    "evidenceRequired": [
+      "Inspect the current dashboard labels and use a non-customer-data demonstration or documented metric definitions.",
+      "Recheck current product facts and all source URLs.",
+      "Inspect the referenced original demonstration assets and document provenance.",
+      "Test the documented workflow or complete the comparison against current sources.",
+      "Confirm this draft answers its title with specific evidence.",
+      "Add fresh screenshots where the topic needs them; do not relabel an unrelated example.",
+      "Set reviewed and published to actual dates only after the checks pass."
+    ]
+  }
+]

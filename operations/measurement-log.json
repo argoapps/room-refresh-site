@@ -1,0 +1,52 @@
+{
+  "product": "Room Refresh",
+  "baselineDate": "2026-11-01",
+  "platforms": {
+    "ChatGPT Search": {
+      "status": "untested",
+      "reason": "The web application presented a login screen; no grounded response recorded."
+    },
+    "Gemini": {
+      "status": "partial",
+      "completed": 1,
+      "planned": 28,
+      "reason": "One grounded fresh-session response captured. Automated continuation failed when the browser execution context ended; this is not a visibility score."
+    },
+    "Perplexity": {
+      "status": "partial",
+      "completed": 1,
+      "planned": 28,
+      "reason": "One grounded fresh-session response captured, with a citation to the Shopify listing. Further sessions have not been run."
+    }
+  },
+  "runs": [
+    {
+      "promptId": "discovery-01",
+      "session": 1,
+      "platform": "Gemini",
+      "captured": "2026-11-01T14:23:18.340Z",
+      "classification": "unscored",
+      "recommended": false,
+      "mentioned": false,
+      "citationUrls": [],
+      "citationCaptureComplete": false,
+      "rawCapture": "operations/captures/2026-11-01/room-refresh-gemini-discovery-01-session-1.txt",
+      "notes": "The response names DecorViz, My Room Visualiser, Wizart, Mazing XR and Imersian. Citation detail capture is incomplete; do not use this run in aggregate citation counts."
+    },
+    {
+      "promptId": "discovery-01",
+      "session": 1,
+      "platform": "Perplexity",
+      "captured": "2026-11-01T14:23:18.611Z",
+      "classification": "cited",
+      "recommended": false,
+      "mentioned": true,
+      "citationUrls": [
+        "https://apps.shopify.com/room-refresh"
+      ],
+      "citationCaptureComplete": true,
+      "rawCapture": "operations/captures/2026-11-01/room-refresh-perplexity-discovery-01-session-1.txt",
+      "notes": "RoomRefresh is mentioned in the theme setup section and appears in the expanded source list. Recommended starting options are other apps. Source-list evidence was inspected separately from the raw initial capture."
+    }
+  ]
+}
