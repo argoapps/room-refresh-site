@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Europe/London",
+  "checkedAt": "2026-11-02T09:02:59.051302+00:00",
+  "productionSourceSha": "f762ce4d3b2de1d99aeb0377aad7fc08835e43ee",
+  "productionDeploymentId": "dpl_Vm5KU4ShxX7AS6uL54a8mnaEuYBz",
+  "rollbackDeploymentId": "dpl_4CgFMqkGgwp18AbriQA3QCU3epr8",
+  "release": {
+    "published": false,
+    "reason": "No guide due before 16 November. November captioned still-image walkthroughs were delivered on 1 November; no duplicate video or release needed."
+  },
+  "technical": {
+    "status": "passed",
+    "checkCount": 16,
+    "checks": {
+      "checked": "2026-11-02T08:59:16.118Z",
+      "product": "Room Refresh",
+      "results": [
+        {
+          "url": "https://www.roomrefresh.app/",
+          "status": 200,
+          "title": "Room Refresh | AI room visualisation for Shopify",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/pricing/",
+          "status": 200,
+          "title": "Room Refresh pricing: plans, trial and usage charges",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/setup/",
+          "status": 200,
+          "title": "How to set up Room Refresh on Shopify",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/faq/",
+          "status": 200,
+          "title": "Room Refresh FAQ: photos, themes, pricing and privacy",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/examples/",
+          "status": 200,
+          "title": "Room Refresh examples: photos, previews and limitations",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/guides/",
+          "status": 200,
+          "title": "Room Refresh guides for Shopify merchants",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/about/",
+          "status": 200,
+          "title": "About Room Refresh: developer, support and privacy",
+          "xRobotsTag": null
+        },
+        {
+          "url": "https://www.roomrefresh.app/robots.txt",
+          "status": 200,
+          "contentType": "text/plain; charset=utf-8"
+        },
+        {
+          "url": "https://www.roomrefresh.app/sitemap.xml",
+          "status": 200,
+          "contentType": "application/xml"
+        },
+        {
+          "url": "https://www.roomrefresh.app/does-not-exist-ai-visibility-check/",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://www.roomrefresh.app/content/site.json",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://www.roomrefresh.app/operations/product-facts.json",
+          "status": 404,
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://www.roomrefresh.app/google37d6469328ca9513.html",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://www.roomrefresh.app/media/product-walkthrough.mp4",
+          "status": 200,
+          "contentType": "video/mp4"
+        },
+        {
+          "url": "https://www.roomrefresh.app/media/product-walkthrough.vtt",
+          "status": 200,
+          "contentType": "text/vtt; charset=utf-8"
+        },
+        {
+          "url": "https://roomrefresh.app/",
+          "status": 308,
+          "location": "https://www.roomrefresh.app/"
+        }
+      ]
+    },
+    "externalLinks": [
+      {
+        "url": "https://argoapps.github.io/room-refresh-legal/privacy.html",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://www.roomrefresh.app/_vercel/insights/script.js",
+        "status": 200,
+        "contentType": "application/javascript; charset=utf-8"
+      }
+    ]
+  },
+  "monthlyReview": {
+    "pricing": "Live Shopify plans, prices, included usage, overages, 7-day trial, USD and 30-day billing match stored product facts.",
+    "source": "https://apps.shopify.com/room-refresh",
+    "pricingExcerpt": "Starter | Fast $19 / month Features 150 Previews per month + $0.12/extra 7-day free trial Starter | Precise $29 / month Features 150 Previews per month + $0.19/extra 7-day free trial Top | Fast $129 / month Features 1,500 Previews per month + $0.08/extra 7-day free trial Top | Precise $179 / month Features 1,500 Previews per month + $0.12/extra 7-day free trial All charges are billed in USD. Recurring and usage-based charges are billed every 30 days.",
+    "claims": "No fresh merchant installation or new generation tested. Existing setup and privacy limitations remain.",
+    "video": "November walkthrough already published 1 November: /media/product-walkthrough.mp4 with captions/transcript."
+  },
+  "googleSearchConsole": {
+    "source": "Overview for canonical URL-prefix property",
+    "clicks": 0,
+    "impressions": null,
+    "indexedPages": null,
+    "status": "Indexing, experience and enhancements still processing; no index count or trend inferred."
+  },
+  "bingWebmasterTools": {
+    "source": "Sitemaps dashboard",
+    "status": "Success",
+    "discoveredUrls": 7,
+    "lastCrawlDisplayed": "11/1/2026",
+    "errors": 0,
+    "warnings": 0,
+    "indexedPages": null,
+    "interpretation": "Discovered URLs are not evidence of indexing or AI citations."
+  },
+  "benchmark": {
+    "newSessions": 0,
+    "status": "Access limits unchanged from initial launch records; no CAPTCHA/login/visitor-gate workaround attempted.",
+    "aggregateChange": null
+  },
+  "outreach": {
+    "sent": false,
+    "nextPreparation": "2026-11-16"
+  },
+  "nextArticleDue": "2026-11-16",
+  "notification": "quiet; healthy technical checks, no meaningful outcome trend or user action required",
+  "webAnalytics": {
+    "source": "Vercel dashboard",
+    "environment": "Production",
+    "windowDisplayed": "Oct 26, 8am - Nov 2, 8:59am; Last 7 Days",
+    "visitors": 6,
+    "pageViews": 8,
+    "shopifyInstallCtaClicks": 1,
+    "shopifyInstallCtaVisitors": 1,
+    "demoClicks": null,
+    "referrersDisplayed": {
+      "bing.com": 1
+    },
+    "eventIngestion": "shopify_install_click visible; collection confirmed",
+    "actualShopifyInstalls": null,
+    "interpretation": "Small initial sample may include launch QA traffic, including the known install CTA test. Not evidence of acquisition uplift, actual installs or purchases. No AI referral classified."
+  }
+}
